@@ -7,12 +7,15 @@ function logFirstProduct () {
 }
 logFirstProduct()
 
-products.push("Computer")
-console.log(products)
-
-//function addProduct("newProduct"){
-//  products.push("newProduct");
-//}
+function addProduct(newProduct){
+  console.log(newProduct);
+  products.push(newProduct);
+  console.log(products);
+//  let strNewProduct = newProduct.toString();
+//  products.push(strNewProduct);
+//  console.log(strNewProduct);
+}
+addProduct("Computer")
 
 
 
