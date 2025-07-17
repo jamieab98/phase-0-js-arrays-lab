@@ -11,12 +11,16 @@ function addProduct(newProduct){
   console.log(newProduct);
   products.push(newProduct);
   console.log(products);
-//  let strNewProduct = newProduct.toString();
-//  products.push(strNewProduct);
-//  console.log(strNewProduct);
 }
 addProduct("Computer")
 
+function updateProductName(position, newName) {
+  console.log(position);
+  console.log(newName);
+  products[position] = newName;
+  console.log(products);
+}
+updateProductName(1, "macBook")
 
 
 // Export the necessary parts for testing
