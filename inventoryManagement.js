@@ -15,12 +15,11 @@ function addProduct(newProduct){
 addProduct("Computer")
 
 function updateProductName(position, newName) {
-  console.log(position);
-  console.log(newName);
   products[position] = newName;
   console.log(products);
 }
 updateProductName(1, "macBook")
+
 
 
 // Export the necessary parts for testing
